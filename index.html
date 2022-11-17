@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneaker Shop</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="#" />
+    <!-- JS -->
+    <script type="module" src="js/index.js" defer></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <h1 class="nav__title">فروشگاه کفش</h1>
+        <div class="nav__cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-items">۰</span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products">
+        <h2 class="products__title">محصولات ما</h2>
+        <div class="products-center">
+          <!-- single product -->
+          <!-- <div class="product">
+            <div class="img-container">
+              <img
+                class="product__img"
+                src="assets/image/air-zoom-pegasus-38-road-running-shoes-8L3k7k.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="product__desc">
+              <p class="product__title">کفش نایک</p>
+              <p class="product__price">۳.۵۰۰.۰۰ تومان</p>
+            </div>
+            <button class="add-to-cart">اضافه به سبد خرید</button>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Cart Section -->
+    <div class="cart-center">
+      <section class="cart">
+        <div class="row">
+          <span class="back">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+          <h3 class="cart__title">سبد خرید</h3>
+        </div>
+        <div class="cart__content">
+          <!-- single item -->
+          <!-- <div class="cart__item">
+            <div class="img-container">
+              <img
+                class="cart__item-img"
+                src="assets/image/air-zoom-pegasus-38-road-running-shoes-8L3k7k.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="cart__item-desc">
+              <h4 class="cart__item-title">کفش نایکی</h4>
+              <h5 class="cart__item-price">۰ تومان</h5>
+            </div>
+            <div class="cart__Item-delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="cart__item-controller">
+              <i class="fas fa-chevron-up"></i>
+              <span>۱</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div> -->
+        </div>
+        <div class="cart__footer">
+          <p class="cart__total-price">قیمت نهایی: ۰ تومان</p>
+          <button class="btn clear-cart">پاک کردن سبد خرید</button>
+          <button class="btn cart-confirm">تکمیل خرید</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
